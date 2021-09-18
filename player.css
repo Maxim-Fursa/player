@@ -15,9 +15,10 @@
 }
 
 .controls {
+    margin: 20px auto;
     background-color: #0B152E;
     padding: 5px 20px;
-    max-width: 440px;
+    max-width: 300px;
     min-width: 280px;
     width: 100%;
 }
