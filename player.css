@@ -63,7 +63,7 @@
 }
 
 .tracks {
-    max-height: 90px;
+    max-height: 75px;
     overflow: auto;
 }
 
@@ -77,8 +77,8 @@
 
 .track{
     font-size: 14px;
-    padding: 6px 10px;
-    height: 30px;
+    padding: 4px 10px;
+    height: 25px;
     color: #fff;
     cursor: pointer;
 }
