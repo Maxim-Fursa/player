@@ -15,13 +15,16 @@
 }
 
 .controls {
-    background-color: #151D32;
+    background-color: #0B152E;
     padding: 5px 20px;
-    width: max-content;
+    max-width: 420px;
+    min-width: 280px;
+    width: 100%;
 }
 
 .audio__track {
-    width: 250px;
+    max-width: 380px;
+    width: 100%;
     height: 5px;
     background-color: #354C67;
     cursor: pointer;
