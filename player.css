@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./font/Montserrat-Bold.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.none {
+    display: none !important;
+}
+
+.controls {
+    background-color: #151D32;
+    padding: 5px 20px;
+    width: max-content;
+}
+
+.audio__track {
+    width: 250px;
+    height: 5px;
+    background-color: #354C67;
+    cursor: pointer;
+}
+
+.time {
+    width: 0;
+    height: 5px;
+    background-color: #4A8DDE;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.onoff {
+    padding: 10px 0;
+}
+
+.onoff button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.track__name {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.tracks {
+    max-height: 90px;
+    overflow: auto;
+}
+
+.tracks::-webkit-scrollbar {
+    width: 8px;
+  }
+
+.tracks::-webkit-scrollbar-thumb {
+    background-color: #354C67;
+}
+
+.track{
+    font-size: 14px;
+    padding: 6px 10px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.track.choose {
+    background-color: #4A8DDE;
+    color: #000;
+    cursor: default;
+}
