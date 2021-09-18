@@ -90,8 +90,7 @@ function startPlay() {
 }
 
 $(document).on('click', '.audio__track', function (event) {
-    const real = (($('.audio__track').parent()[0].offsetWidth - $('.audio__track')[0].offsetWidth) / 2)
-    let x = event.clientX - real
+    let x = event.pageX - $('.audio__track').offset().left
     let y = 100 * x / $('.audio__track')[0].offsetWidth
     audio.currentTime =  (y * audio.duration / 100)
     startPlay()
