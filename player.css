@@ -42,23 +42,33 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    height: 55px;
 }
 
 .onoff {
     padding: 10px 0;
+    margin-left: 15px;
 }
 
 .onoff button {
     cursor: pointer;
     background: none;
     border: none;
-    color: #fff;
+    width: 28px;
+    height: 28px;
+}
+
+.onoff button img {
+    height: 28px;
 }
 
 .track__name {
     color: #fff;
-    font-size: 14px;
+    font-size: 23px;
     margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .tracks {
@@ -75,7 +85,7 @@
 }
 
 .track{
-    font-size: 14px;
+    font-size: 16px;
     padding: 4px 10px;
     height: 25px;
     color: #fff;
